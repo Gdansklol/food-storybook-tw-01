@@ -11,13 +11,35 @@ npx
 npx create-react-app my-app
 (npx comes with npm 5.2+ and higher, see instructions for older npm versions)
 
+Scripts
+Inside the newly created project, you can run some built-in commands:
+
+npm start or yarn start
 npm
 npm init react-app my-app
 npm init <initializer> is available in npm 6+
 
-## Available Scripts
+# Storybook with Tailwind Css
+
+[Create React App](https://github.com/facebook/create-react-app).
+
+## Install Storybook
+
+(https://storybook.js.org/blog/storybook-7-1/)
+
+npx storybook@latest init
+
+npx storybook@latest upgrade
 
 In the project directory, you can run:
+
+### `tailwindcss`
+
+Runs the app in the development mode.\
+Open [Documentaion](https://tailwindcss.com/docs/guides/create-react-app) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### `yarn start`
 
@@ -27,20 +49,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
+### `tailwindcss`
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+Launches the test runner in the interactive watch mode.\
+See the section about [Documentation for getting start](https://tailwindcss.com/docs/guides/create-react-app) for more information.
+
+### `npm concurrently`
+
+npm i concurrently
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `yarn eject`
 
