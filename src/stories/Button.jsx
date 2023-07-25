@@ -66,7 +66,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
     <>
     <button
       type="button"
-      className={['m-12 flex outline outline-green-500','storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['m-12 flex text-indigo-800 md:text-green-600 outline outline-purple-500 align-baseline','storybook-button', `storybook-button--${size}`, mode].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >

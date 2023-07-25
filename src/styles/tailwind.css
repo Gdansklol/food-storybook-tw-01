@@ -588,8 +588,17 @@ video {
   margin: 3rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .contents {
   display: contents;
+}
+
+.text-\[\#5e894e\] {
+  --tw-text-opacity: 1;
+  color: rgb(94 137 78 / var(--tw-text-opacity));
 }
 
 .outline {
@@ -598,6 +607,10 @@ video {
 
 .outline-green-500 {
   outline-color: #22c55e;
+}
+
+.outline-purple-500 {
+  outline-color: #a855f7;
 }
 
 body {
