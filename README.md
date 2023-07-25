@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Create React App
 
 [Create React App](https://create-react-app.dev/docs/getting-started/).
 
@@ -7,7 +7,8 @@ You’ll need to have Node >= 14 on your local development machine (but it’s n
 
 To create a new app, you may choose one of the following methods:
 
-npx
+## npx
+
 npx create-react-app my-app
 (npx comes with npm 5.2+ and higher, see instructions for older npm versions)
 
@@ -21,7 +22,10 @@ npm init <initializer> is available in npm 6+
 
 # Storybook with Tailwind Css
 
-[Create React App](https://github.com/facebook/create-react-app).
+npm install -D tailwindcss
+npx tailwindcss init
+
+[Install tailwindcss](hhttps://tailwindcss.com/docs/guides/create-react-app).
 
 ## Install Storybook
 
@@ -41,14 +45,6 @@ Open [Documentaion](https://tailwindcss.com/docs/guides/create-react-app) to vie
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### `tailwindcss`
 
 npm install -D tailwindcss
@@ -64,29 +60,20 @@ npm i concurrently
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn eject`
+### `React Responsive Carousel`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm i react-responsive-carousel
+(https://www.youtube.com/watch?v=VFHWuy2olto&t=251s)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+import { Carousel } from 'react-responsive-carousel';
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**codesandbox**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+(https://codesandbox.io/s/react-new)
 
-## Learn More
+## picsum photos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(https://picsum.photos/v2/list?page=2&limit=100)
 
 ### Making a Progressive Web App
 
