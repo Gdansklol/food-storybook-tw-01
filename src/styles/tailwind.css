@@ -596,9 +596,13 @@ video {
   display: contents;
 }
 
-.text-\[\#5e894e\] {
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.text-indigo-800 {
   --tw-text-opacity: 1;
-  color: rgb(94 137 78 / var(--tw-text-opacity));
+  color: rgb(55 48 163 / var(--tw-text-opacity));
 }
 
 .outline {
@@ -625,4 +629,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width: 768px) {
+  .md\:text-green-600 {
+    --tw-text-opacity: 1;
+    color: rgb(22 163 74 / var(--tw-text-opacity));
+  }
 }

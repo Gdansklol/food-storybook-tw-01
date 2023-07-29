@@ -1,13 +1,12 @@
 # Create React App
 
+npx create-react-app .
 [Create React App](https://create-react-app.dev/docs/getting-started/).
 
 Creating an App
 You’ll need to have Node >= 14 on your local development machine (but it’s not required on the server). You can use nvm (macOS/Linux) or nvm-windows to switch Node versions between different projects.
 
 To create a new app, you may choose one of the following methods:
-
-## npx
 
 npx create-react-app my-app
 (npx comes with npm 5.2+ and higher, see instructions for older npm versions)
@@ -34,6 +33,19 @@ npx tailwindcss init
 npx storybook@latest init
 
 npx storybook@latest upgrade
+
+or
+npx sb init
+
+[learn more about react storybook tutorial](https://www.youtube.com/watch?v=FrB4hebsolc&list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk&index=5)
+
+install old versions dependancies
+
+npx -p @storybook/cli sb init
+
+#### .storybook
+
+<h1> we will have .stoybook folder and have two files with  mail.js file and preview.js file</h1>
 
 In the project directory, you can run:
 
